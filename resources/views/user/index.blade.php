@@ -5,8 +5,13 @@
             <div class="col-md-9">
                 <div class="card">
                     <div class="card-header">
-                        <h2>Laravel 10 CRUD Application</h2>
+                        <div> <h2>Laravel 10 CRUD Application</h2> </div>
+                        </br>
+                        <div>
+                        <h3>Registered User List</h3>
+                        </div>
                     </div>
+                    <h2> You( {{auth()->user()->name}} ) logged in!!</h2>
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table">
@@ -37,8 +42,10 @@
                                 @endforeach
                                 </tbody>
                             </table>
-                        </div>
+                        </div>                       
                     </div>
+                    <div class="card-header">
+                    <div> <a href="logout">Logout</a> </div>
                 </div>
             </div>
         </div>

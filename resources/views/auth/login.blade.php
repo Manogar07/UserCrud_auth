@@ -6,7 +6,7 @@
 <form method="POST" action="authenticate">
     <label for="">E-Mail <input type="text" name="email"> </label><br>
     <label for="">Password <input type="password" name="password"> </label><br>
-    <input type="submit" value="Login"><br>
+    <button style="width:100px; height:25px" input type="submit"> Login </button> <br>
     @csrf
 </form>
     

@@ -25,6 +25,6 @@ class RegisterController extends Controller
         $user->save();
         Auth::login($user);
 
-        return redirect('/home');
+        return redirect('/login');
     }
 }
